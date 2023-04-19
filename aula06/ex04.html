@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 04</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            color: blue;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        
+
+        var nome = prompt('qual o seu nome');
+
+        document.write(`<h1> ${nome} </h1>`)
+
+        document.writeln(`ola, <strong>${nome}</strong>! seja bem vindo(a)<br> `);
+
+        document.writeln(`seu nome tem ${nome.length} letras <br>`); //length serve para contar quantas letras tem na string
+
+        document.write(`seu nome em letras maiusculas ${nome.toUpperCase()} <br> `); //toUpperCase serve para deixar as letras maiusculas
+
+        document.write(`seu nome em letras minusculas ${nome.toLowerCase()} `); //toLowerCase serve para deixar as letras minusculas
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de dom</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            color: black;
+            font-size: 1.3em;
+        }
+
+        ul{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>testando o dom e os seletores</h1>
+
+    <p>temos seletores por:</p>
+    <ul>
+        <li><abbr title="getElementsByTagNome">marca</abbr></li>
+        <li><abbr title="getElementsByName">nomes</abbr></li>
+        <li><abbr title="getElementById">id</abbr></li>
+        <li><abbr title="getElementsByclassName">classes</abbr></li>
+        <li><abbr title="querySelector">seletores</abbr></li>
+    </ul>
+
+    <h2>testes</h2>
+
+    <p style="color: white;">123 testando por name (mudei a cor dele pelo java script)</p>
+
+
+    <script>
+        var a = document.getElementsByTagName('p')[1]
+        document.write(a.innerText +  ' (esse aqui foi por Js)')
+        a.style.backgroundColor = 'blue';
+    </script>
+
+    <p id="a2">123 testando por id</p>
+
+    <script>
+        document.getElementById('a2');
+        a2.style.color = 'blue'
+        a2.innerText= 'alterei por js'
+        document.write(a2.innerText + ' (esse foi por Js)')
+        
+    </script>
+
+    <div id='a4'> agr por seletores</div>
+
+    <script>
+       var a = document.querySelector('div#a4')
+       a.style.color = 'red'
+    </script>
+</body>
+</html>

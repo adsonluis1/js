@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando if e else no site</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>kns mariano</h1>
+
+    <input type="text" name="idade" id="idade">
+    <input type="button" value="enviar" onclick="calcular()">
+    <div id="tela">
+
+    </div>
+
+    <script>
+        function calcular(){
+            var ide = document.getElementById('idade');
+            var tela = document.getElementById('tela');
+
+            var i = Number(ide.value);
+            tela.innerHTML= ` <p>vc tem <strong>${i} anos </strong> </p> ` 
+            
+
+            if(i >= 18){
+                tela.innerHTML+= '<p> vc é de <strong>maior</strong> </p>'
+                tela.innerHTML+= '<h2> vantagens</h2>  <p>dirigir, beber, liberdade e etc '
+            }
+            else{
+                tela.innerHTML+= '<p> vc é de <strong>menor</strong> <p>'
+                tela.innerHTML+= '<h2> vantagens </h2>  <p> falta de responsabilidade, mais divertido, sem preocupação e etc'
+            }
+        }
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>testando se eu aprendi de vdd</h1>
+
+    <p id="tt">primeiro teste</p>
+
+    <script>
+       var primeiro = document.getElementById('tt')
+
+       primeiro.style.color='pink'
+    </script>
+
+    <p>eu sou lindo</p>
+    <script>
+        var segundo = document.getElementsByTagName('p')[0]
+
+        document.write(segundo.innerText + ' adsinho');
+    </script>
+
+    <div>
+        <h2>adsinho pressao</h2>
+        <ul>
+            <li>lindo
+            <li>gostoso
+            <li>joga bola
+            <li>dança
+        </ul>
+    </div>
+
+    <script>
+    
+        var terceiro = document.getElementsByTagName('div')[0]
+
+        document.write(terceiro.innerHTML);
+
+        terceiro.style.color= 'blue'
+       
+    
+    </script>
+</body>
+</html>

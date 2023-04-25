@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>fi do kns</h1>
+
+    <input type="text" name="tetx" id="text">
+    <input type="number" name="idade" id="iidade">
+    <input type="button" value="enviar" onclick="clicou()">
+    <p id="tela"></p>
+
+    <script>
+        function clicou(){
+
+    var tx = document.getElementById('text');
+    var ida = document.getElementById('iidade');
+    var tela = document.getElementById('tela');
+
+    var i = Number(ida.value)
+   
+    tela.innerHTML+= `Olá ${tx}, seja bem vindo(a)`
+    tela.innerHTML+= `Vc tem ${i} anos`
+
+    if(i >= 18){
+        tela.innerHTML+= 'Vc é de <strong> maior </strong>'
+    }else{
+        tela.innerHTML+= 'vc ainda é de <strong> menor </strong>'
+    }
+
+    }
+    </script>
+
+
+
+</body>
+</html>

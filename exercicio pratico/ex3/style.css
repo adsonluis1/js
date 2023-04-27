@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main , footer , header{
+    width: 500px;
+    background-color: blueviolet;
+    margin: auto;
+    padding: 10px;
+}
+header{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+main{
+    height: 500px;
+    color: white;
+    text-align: justify;
+}
+input{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+footer{
+    text-align: center;
+    font-size: 1.3em;
+}
+main p{
+    margin-left: 15px;
+    
+}
+div{
+    color: aqua;
+}

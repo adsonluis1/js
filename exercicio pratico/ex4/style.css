@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main , footer , header{
+    width: 500px;
+    background-color: blueviolet;
+    margin: auto;
+    padding: 10px;
+}
+header{
+    margin-top: 100px;
+    text-align: center;
+}
+main{
+    height: 500px;
+    color: white;
+}
+input{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 1.3em;
+}
+main p{
+    margin-left: 15px;
+    
+}

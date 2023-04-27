@@ -5,8 +5,7 @@ function carregar(){
     var hora = horaatual.getHours()
 
     
-    
-    
+
     
     
     if(hora >= 6 && hora <=11){

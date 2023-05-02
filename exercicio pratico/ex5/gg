@@ -1,0 +1,19 @@
+function isnumero(n){
+    if(Number(n) >= 1 || Number(n) <= 100){
+        return true
+    }else{
+        return false
+    }
+}
+
+function islist(n , l){
+
+}
+
+
+
+function adicionar(){
+    if(isnumero(numero.value) && islist(numero.value , valores)){
+    
+    }else{alert('hihi')}
+}
